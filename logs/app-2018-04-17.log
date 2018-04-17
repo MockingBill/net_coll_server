@@ -28,3 +28,6 @@
   changedRows: 0 }
 [2018-04-17 16:05:01.672] [INFO] app - 状态变更查询-手机号：18785185684
 [2018-04-17 16:05:20.915] [INFO] app - 状态变更查询-手机号：18785185684
+[2018-04-17 17:25:23.280] [INFO] app - saveNetCollData-Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'218.201.251.73' (using password: YES)
+[2018-04-17 21:45:22.474] [INFO] app - saveNetCollData-Error: connect ETIMEDOUT
+[2018-04-17 21:45:39.870] [INFO] app - saveNetCollData-Error: connect ETIMEDOUT

@@ -50,5 +50,30 @@ router.get('/getNetCell', function(req, res, next){
     });
 });
 */
+var mysql = require('mysql');
+var model = mysql.createPool({
+    host     : 'mysqlIP',
+    user     : 'root',
+    password : 'root',
+    database : 'netCell'
+});
+function isConn () {
+    model.getConnection(function (err, con) {
+        if (err) {
+            console.log(err);
+        };
+        con.query("select * from netcellnet", [],
+            function (err, rows) {
 
+                if (err) {
+                    console.log(err);
+                }
+                else {
+                    console.log("success"+rows);
+                }
+                con.release();
+            });
+    });
+};
+isConn();
 
