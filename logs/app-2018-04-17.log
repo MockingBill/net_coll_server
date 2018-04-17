@@ -1,0 +1,30 @@
+[2018-04-17 15:42:15.659] [INFO] app - 开始执行transaction，共执行6条数据
+[2018-04-17 15:42:16.042] [INFO] app - transaction error: null
+[2018-04-17 15:42:16.058] [INFO] app - transaction info: {"fieldCount":0,"affectedRows":0,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2018-04-17 15:42:16.058] [INFO] app - null
+[2018-04-17 15:42:16.060] [INFO] app - OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+[2018-04-17 15:46:04.810] [INFO] app - 状态变更查询-手机号：18785185684
+[2018-04-17 16:04:32.056] [INFO] app - saveNetCollData-Error: ER_BAD_DB_ERROR: Unknown database 'netcell'
+[2018-04-17 16:05:00.176] [INFO] app - 开始执行transaction，共执行5条数据
+[2018-04-17 16:05:00.323] [INFO] app - transaction error: null
+[2018-04-17 16:05:00.358] [INFO] app - transaction info: {"fieldCount":0,"affectedRows":0,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2018-04-17 16:05:00.359] [INFO] app - null
+[2018-04-17 16:05:00.360] [INFO] app - OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+[2018-04-17 16:05:01.672] [INFO] app - 状态变更查询-手机号：18785185684
+[2018-04-17 16:05:20.915] [INFO] app - 状态变更查询-手机号：18785185684
