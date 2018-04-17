@@ -6,10 +6,10 @@ var async = require("async");
 var mysql = require('mysql');
 var app = require('../app');
 var model = mysql.createPool({
-    host     : '10.196.127.38',
+    host     : 'mysqlIP',
     user     : 'root',
-    password : '123456',
-    database : 'netcell'
+    password : 'root',
+    database : 'netCell'
 });
 /**
  * 保存单个采集记录
